@@ -131,7 +131,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  font-weight: bold;
 }
 
 @media (min-width: 992px) {
@@ -142,7 +142,7 @@ img::-moz-selection {
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
-    background-color: #546e7a;
+    background-color: transparent;
   }
   #mainNav .navbar-brand {
     font-size: 1.75em;
@@ -156,6 +156,7 @@ img::-moz-selection {
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
+    background-color: #546e7a;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
